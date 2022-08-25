@@ -6,6 +6,9 @@
 * Purpose: Create a program that returns the location of a particular user-determined squadron
 * ===========================================================*/
 
+#include <stdio.h>
+#inlcude "lab07-01functs.h"
+
 int main(void) {
 
     return 0;
