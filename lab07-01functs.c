@@ -8,6 +8,9 @@
 
 #include <stdio.h>
 
-int main(void){
-    return 0;
+int displayResidenceHall(int squad){
+
+    legit = (squad > 0 && squad < 41) ? return 1 : return 0;
+
+    return legit;
 }
