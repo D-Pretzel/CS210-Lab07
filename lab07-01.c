@@ -7,7 +7,7 @@
 * ===========================================================*/
 
 #include <stdio.h>
-#inlcude "lab07-01functs.h"
+#include "lab07-01functs.h"
 
 int main(void) {
 
