@@ -10,7 +10,15 @@
 
 int displayResidenceHall(int squad){
 
-    legit = (squad > 0 && squad < 41) ? return 1 : return 0;
+    int legit = (squad > 0 && squad < 41) ? 1 : 0;
+
+    if (squad > 0 && squad < 24) {
+        printf("Squadron %i is in Vandy.\n", squad);
+    } else if (squad > 23 && squad < 41) {
+        printf("Squadron %i is in Sijan.\n", squad);
+    } else {
+        printf("No such squadron exists (%i)\n", squad);
+    }
 
     return legit;
 }

@@ -14,7 +14,7 @@ int main(void) {
     int squadNum;
 
     printf("Enter a squadron number: \n");
-    scanf("%i", squadNum);
+    scanf("%i", &squadNum);
 
     displayResidenceHall(squadNum);
 }
